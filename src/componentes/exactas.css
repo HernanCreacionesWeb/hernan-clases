@@ -1,0 +1,244 @@
+ 
+
+/*jumbo nuevo*/
+.jumbo-{
+    position: relative;
+    width: 100%;
+    height: 58vh; /* Ajusta la altura según sea necesario */
+    background-image: url('../imagenes/jumbo-fisica-sinfondo.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .jumbo-content- {
+    position: absolute;
+    text-align: center;
+    color: white;
+   
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .jumbo h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+
+
+
+.card-img-top{
+  width: 100%;
+    height: 200px !important; /* Set a fixed height for all card images */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+
+
+
+  @media (max-width: 768px) {
+    .jumbo {
+      height: 30vh; /* Ajusta la altura para pantallas pequeñas */
+    }
+  
+    .jumbo h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+.h1-jumbo{
+    margin-top: 10%;
+    font-size: 3.6rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+
+
+.pizarra {
+    width: 100%; /* Ancho de la pizarra */
+    height: auto; /* Alto de la pizarra */
+    background-color: #246605; /* Color de fondo de la pizarra */
+    border: 10px solid #f5d398; /* Borde de la pizarra */
+    border-radius: 10px; /* Bordes redondeados */
+    
+    position: relative; /* Para posicionar el texto */
+    overflow: hidden; /* Para ocultar el contenido que sobresale */
+}
+
+.h3-jumbo {
+    color: #fff;
+}
+
+.btn-jumbo{
+     scale: 1.1;
+}
+.btn-jumbo:hover{
+    scale: 1.8;
+}
+/*seccion2*/
+ 
+.h2seccion{
+    font-family:  'Times New Roman', Times, serif !important;
+    color: blue;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.h3seccion{
+    font-family:  'Times New Roman', Times, serif !important;
+    color: blue;
+}
+
+
+/*cards*/
+.cont-cards{
+    margin-left: 9%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+.card{
+    width: 18rem; /* Tamaño fijo para las tarjetas */
+    height: 20rem; /* Ajusta la altura según sea necesario */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 60%; /* Ajusta el tamaño máximo de la imagen dentro de la tarjeta */
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor sin distorsionarse */
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title{
+    margin-top: 15%;
+     
+}
+
+.ca{
+    background-color: rgb(152, 245, 245);
+}
+.cb{
+    background-color: #efbef3;
+}
+
+/*metodologia*/
+.reloj{
+width: 20%;
+height: 40%;
+margin-left: 50%;
+margin-top: 10%;
+}
+
+.contp-met{
+    text-align: left;
+}
+
+
+/* notedemores*/
+.h2-note{
+    margin-left: 0%;
+}
+
+
+
+
+
+/*titileo*/
+ 
+@keyframes titileo {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  .titileo {
+    display: inline-block;
+    animation: titileo 1s infinite;
+    color: #fff;
+  }
+  
+  .titileo:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .jumbo-fisica {
+    background-color: #343a40; /* Ajusta el color de fondo según sea necesario */
+  }
+
+
+
+
+  @media (max-width: 768px){
+    .jumbo-fisica{
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: auto;
+         
+         
+        }
+
+        .btn-jumbo{
+           
+        }
+
+/*metodologia*/
+.reloj{
+    width: 20%;
+    height: 40%;
+    margin-left: 0%;
+    margin-top: 10%;
+    }
+    
+    .contp-met{
+        text-align: left;
+    }
+
+
+/* notedemores*/
+.h2-note{
+    margin-left: 5%;
+}
+
+  }

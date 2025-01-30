@@ -1,0 +1,242 @@
+/*Elephant*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Delius+Swash+Caps&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gravitas+One&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tektur:wght@400..900&display=swap');
+/*subtitle*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Delius+Swash+Caps&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Gravitas+One&family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nova+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Slab:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tektur:wght@400..900&display=swap');
+
+
+
+
+
+.linea{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+/*.title{
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10%;
+}*/
+.subtitle{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    color: black !important;
+    margin-left: 3%;
+}
+
+
+/*.p-frase{
+    font-weight: 600;
+    font-size: 1.1em;
+}*/
+
+
+/*agenda*/
+.row-reserva{
+    margin-top: -10%;
+     
+}
+
+
+/*servicios*/
+.servicios-cont{
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    width: 90%;
+    
+    
+}
+
+.card-alfa{
+    background-color: #25d366;
+    height: 400px !important;
+}
+.card-text-i{
+    font-size: 1vw !important;
+}
+
+.row-cards-alfa{
+    display: flex;
+justify-content: center;
+justify-items: center;
+margin-left: -98%;
+}
+
+.card-img-top-alfa {
+  width: 100%;
+  height: 200px !important; /* Set a fixed height for all card images */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+/*metodologia*/
+.metodologia{
+    padding: 10%;
+    margin-top: 20% !important;
+   
+}
+.h3-serv--{
+  
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 110%;
+    
+}
+
+.p-metod{
+    text-align: left;
+     
+}
+.atte{font-weight: 600;}
+
+
+/*reserva*/
+.agendá{
+    margin-top: 10%;
+    background-color: #60bfff75;
+    border-radius: 20px;
+    
+}
+.img-agenda{
+    width: 15%;
+    height: 4em;
+    margin-right: -40%;
+}
+ 
+.row-reserva{
+    padding: 6%;
+}
+/*.p-reserva{
+    color: rgba(248, 8, 8, 0.959);
+    margin-left: -50%;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: ;
+    font-style: normal;
+}*/
+
+.btn-reserva{
+    margin-top: -90px;
+}
+
+
+/*comentarios*/
+.entradas-section{
+    margin-top: 8%;
+}
+
+label{
+    font-weight: 600;
+    color: #e21919;
+}
+
+
+
+
+/*whatsapp*/
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distancia desde el fondo */
+    right: 20px; /* Distancia desde la derecha */
+    z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+  .whatsapp-button img {
+    width: 30px;
+    height: 30px;
+  }
+
+@media (max-width:768px) {
+    .title{
+       font-size: 1.5em;
+       margin-top: 20%;
+    }
+
+    .servicios-cont {
+        margin-left: 10%;
+    }
+
+    .row-cards-alfa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .card-alfa {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 280px !important;
+        width: 18rem;
+        display: flex;
+        flex-direction: column;
+        
+            height: 350px !important;
+        
+    }
+
+    .card-text-i {
+        font-size: 2.2vw !important;
+    }
+
+    .h3-serv-- {
+        margin-left: 0%;
+        font-family: "Gravitas One", serif;
+        font-weight: 400;
+        font-style: normal;
+         
+    }
+
+    .metodologia {
+        padding: 16%;
+        margin-top: 40% !important;
+    }
+
+    .agendá {
+        margin-top: 10% !important;
+    }
+
+    .img-agenda {
+        width: 60%;
+        height: 4em;
+        margin-right: 0%;
+    }
+
+    .p-reserva {
+        margin-left: -30%;
+    }
+
+    .btn-reserva {
+        margin-top: 0px;
+    }
+
+    .whatsapp-button {
+        bottom: 10px; /* Ajusta la distancia desde el fondo para pantallas pequeñas */
+        right: 10px; /* Ajusta la distancia desde la derecha para pantallas pequeñas */
+        width: 50px;
+        height: 50px;
+    }
+
+    .whatsapp-button img {
+        width: 25px;
+        height: 25px;
+    }
+}

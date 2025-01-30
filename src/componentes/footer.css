@@ -1,0 +1,20 @@
+
+.cont-footer{
+    width: 100% !important;
+}
+
+.cont-footer{
+  text-align: center;
+    background-color: rgba(25, 179, 64, 0.171)  ;
+}
+.nav{
+    display: flex;
+}
+
+ .chivo{
+    color: blue !important;
+ }
+ .nav-link{
+    color: black !important;
+ }
+ 
