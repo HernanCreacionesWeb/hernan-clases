@@ -73,10 +73,10 @@ export const Presentacion = () => {
 <div className="container servicios-cont mb-4">
     <h3 className='h3-serv--  '>Servicios</h3>
 
-    <div  className="container text-center">
+    <div  className="container text-center cols">
   <div className="row-cards-alfa  ">
     
-    <div className="col">
+    <div className="col mx-3">
     <div className="card-alfa" style={{ width: "18rem" }}>
   <img src={infoespañol} className="card-img-top-alfa" alt="..."/>
   <div className="card-body">
@@ -88,7 +88,7 @@ export const Presentacion = () => {
     </div>
 
 
-    <div className="col">
+    <div className="col mx-3">
     <div className="card-alfa" style={{ width: "18rem" }}>
   <img src={infoextactas} className="card-img-top-alfa" alt="..."/>
   <div className="card-body">
@@ -98,7 +98,7 @@ export const Presentacion = () => {
   </div>
 </div>
     </div>
-    <div className="col">
+    <div className="col mx-3">
     <div className="card-alfa" style={{ width: "18rem" }}>
   <img src={infosociales} className="card-img-top-alfa" alt="..."/>
   <div className="card-body">
@@ -148,7 +148,7 @@ export const Presentacion = () => {
 
       {/* opiniones entradas */}
       <div className='entradas-section'>
-      <h2 className='h3-serv'>Opiniones de alumnos</h2>
+      <h2 className='h2-opiniones'>Opiniones de alumnos</h2>
       <form className='mb-5' onSubmit={handleCommentSubmit}>
         <div className="form-group">
           <label htmlFor="exampleFormControlInput1">Nombre</label>

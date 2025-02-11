@@ -128,4 +128,30 @@
       width: 100%;
       margin-bottom: 20px;
     }
+    /*recursos*/
+    .cont-cards{
+      margin-left: 1%;
+    }
+  }  
+  
+  
+  @media (max-width: 425px) {
+    /*recursos*/
+    .cont-cards{
+      margin-left: 12%;
+    }
+}
+  
+  @media (max-width: 375px) {
+      /*recursos*/
+      .cont-cards{
+        margin-left: 7%;
+      }
   }
+
+  @media (max-width: 320px) {
+    /*recursos*/
+    .cont-cards{
+      margin-left: 1%;
+    }
+}

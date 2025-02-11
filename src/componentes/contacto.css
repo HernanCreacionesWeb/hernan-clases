@@ -5,7 +5,8 @@
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 66vh
+    height: auto;
+     
   }
   
   .contacto-container h2 {
@@ -58,9 +59,46 @@ margin-left: 0%;
 
   }
 
+  @media (max-width:1368px) {
+    .contacto-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 98px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: auto;
+       
+    }
+    
+  }
 
 
- 
+  @media (max-width:768px) {
+    .contacto-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 98px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: auto;
+       
+    }
+    
+  }
 
 
-  
+  @media (max-width:412px) {
+    .contacto-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 56px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      height: auto;
+       
+    }
+    
+  }

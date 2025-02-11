@@ -137,7 +137,11 @@ label{
     color: #e21919;
 }
 
-
+.h2-opiniones{
+    color: #000000;
+    font-size: 1rem;
+    margin-left: 2%;
+}
 
 
 /*whatsapp*/
@@ -164,6 +168,114 @@ label{
     height: 30px;
   }
 
+
+ 
+    .card-alfa {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 5rem !important;
+        width: 14rem !important;
+        display: flex;
+        flex-direction: column;
+        
+            height: 350px !important;
+        
+    }
+  @media (min-width: 1024px) {
+    /*servicios*/
+    .row-cards-alfa{   
+        margin-left:-85% !important ;
+        margin-top: 12%;     
+      
+    }
+    .card-alfa {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 5rem !important;
+        width: 14rem !important;
+        display: flex;
+        flex-direction: column;
+        
+            height: 350px !important;
+        
+    }
+
+
+    
+    .img-agenda {
+        width: 70%;
+        height: 7em !important;
+        margin-right: 0%;
+    }
+   
+}
+
+@media (max-width:1366px) {
+    .row-cards-alfa {
+        
+        margin-left: -105% !important;
+        
+      
+    }}
+
+
+@media (max-width:896px) {
+    .row-cards-alfa {
+        
+        margin-left: -105% !important;
+        
+      
+    }
+
+
+    
+    .card-alfa {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 200px !important;
+        width: 16rem !important;
+        display: flex;
+        flex-direction: column;
+        
+            height: 350px !important;
+        
+    }
+
+
+}
+
+
+@media screen and (orientation: landscape) {
+    .row-cards-alfa {
+        
+        margin-left:   !important;
+        
+      
+    }
+
+}
+
+
+@media (max-width:853px) {
+    .row-cards-alfa {
+        
+   
+      
+       padding: 15%;
+        
+    }
+    .card-alfa {
+        width: 110% !important;
+        margin-bottom: 20px;
+        height:  !important;
+   
+    }
+
+
+}
+
+
+
 @media (max-width:768px) {
     .title{
        font-size: 1.5em;
@@ -178,7 +290,7 @@ label{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
+        margin-left: -8% !important;
     }
 
     .card-alfa {
@@ -193,8 +305,13 @@ label{
         
     }
 
+    .card-title{
+         
+        margin-top: 1% !important;
+    }
     .card-text-i {
         font-size: 2.2vw !important;
+        margin-top: 2%;
     }
 
     .h3-serv-- {
@@ -202,6 +319,7 @@ label{
         font-family: "Gravitas One", serif;
         font-weight: 400;
         font-style: normal;
+       margin-left: -10%;
          
     }
 
@@ -215,8 +333,8 @@ label{
     }
 
     .img-agenda {
-        width: 60%;
-        height: 4em;
+        width: 40% ; 
+        height: 6em;
         margin-right: 0%;
     }
 
@@ -239,4 +357,56 @@ label{
         width: 25px;
         height: 25px;
     }
+}
+
+@media (max-width:667px) {
+    .row-cards-alfa {
+        
+        margin-left: -5% !important;
+      
+    }
+
+    .card-alfa {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 200px !important;
+        width: 16rem !important;
+        display: flex;
+        flex-direction: column;
+        
+            height: 350px !important;
+        
+    }
+
+
+}
+
+
+@media (min-width: 375px) {
+    /*servicios*/
+    .row-cards-alfa{
+       
+        margin-left:-10%  ;
+    }
+    .img-agenda {
+        width: 40%;
+        height: 4em;
+        margin-right: 0%;
+    }
+   
+}
+
+@media (min-width: 320px) {
+    /*servicios*/
+    .row-cards-alfa{
+       
+        margin-left:-12%  ;
+        margin-top: -15%;
+    }
+    .img-agenda {
+        width: 40%;
+        height: 4em;
+        margin-right: 0%;
+    }
+   
 }

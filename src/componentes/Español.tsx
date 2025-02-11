@@ -86,7 +86,7 @@ const Espanol = () => {
   <div className="container text-center ">
   <div className="row cards">
     {/*card 1 */}
-    <div className="col-md-3">
+    <div className="col">
     <div className="card" style={{width: "18rem"}}>
   <img src={vocabulario} className="card-img-top" alt="..."/>
   <div  className="card-body">
@@ -96,7 +96,7 @@ const Espanol = () => {
 </div>
     </div>
       {/*card 2 */}
-    <div className="col-md-3">
+    <div className="col">
     <div className="card" style={{width: "18rem"}}>
   <img src={pronunciacion} className="card-img-top" alt="..."/>
   <div  className="card-body">
@@ -106,7 +106,7 @@ const Espanol = () => {
 </div>
     </div>
       {/*card 3 */}
-    <div className="col-md-3">
+    <div className="col">
     <div className="card" style={{width: "18rem"}}>
   <img src={dialogo} className="card-img-top" alt="..."/>
   <div  className="card-body">
@@ -116,7 +116,7 @@ const Espanol = () => {
 </div>
     </div>
       {/*card 4 */}
-    <div className="col-md-3">
+    <div className="col">
     <div className="card" style={{width: "18rem"}}>
   <img src={adaptacion} className="card-img-top" alt="..."/>
   <div  className="card-body">

@@ -63,10 +63,10 @@ export const Sociales = () => {
               </div>
             </div>
           </div>
-        </div>
+       
 
         {/* linea 2 */}
-        <div className="row">
+        
           <div className="col">
             <div className="card ca" style={{ width: '18rem' }}>
               <img src={meet} className="card-img-top" alt="..." />
@@ -91,10 +91,10 @@ export const Sociales = () => {
               </div>
             </div>
           </div>
-        </div>
+       
 
         {/* linea 3 */}
-        <div className="row">
+        
           <div className="col">
             <div className="card cb" style={{ width: '18rem' }}>
               <img src={consulta} className="card-img-top" alt="..." />

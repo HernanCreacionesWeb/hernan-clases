@@ -35,8 +35,8 @@ export const Exactas = () => {
 <div className="jumbo-">
       <div className="jumbo-content-">
       <h1 className=' h1-jumbo '>
-        <span className="titileo">Física</span>
-        <span className="titileo">  Matemática</span>
+        <span className="titileo titlle">Física</span>
+        <span className="titileo mt-5">  Matemática</span>
         </h1> 
         <button type="button" className="btn btn-primary mt-4 mb-3 btn-jumbo"><Link to="/contacto" className="nav-link  active "  >Contacto</Link></button>
         <h3 className='mt-4 mb-5 h3-jumbo'>Clases personalizadas</h3>
@@ -71,7 +71,7 @@ export const Exactas = () => {
 <h3>Recursos</h3>
 <div className="cont-cards">
 {/*linea 1*/}
-<div className="row">
+<div className="row row-cards">
   <div className="col"><div className="card cb "style={{ width: '18rem' }}>
   <img src={pizdin} className="card-img-top" alt="..."/>
   <div className="card-body">
@@ -97,12 +97,17 @@ export const Exactas = () => {
   </div>
 </div>
 </div>
-</div> 
+
+
+
+
+
+ 
 
 
 {/*linea 2*/}
-<div className="row">
-  <div className="col"><div className="card ca"style={{ width: '18rem' }}>
+ 
+  <div className="col  "><div className="card ca"style={{ width: '18rem' }}>
   <img src={meet}className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Video llamada</h5>
@@ -110,7 +115,7 @@ export const Exactas = () => {
     
   </div>
 </div></div>
-  <div className="col"><div className="card cb" style={{ width: '18rem' }}>
+  <div className="col  "><div className="card cb" style={{ width: '18rem' }}>
   <img src={practicas} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Prácticas y examenes</h5>
@@ -118,7 +123,7 @@ export const Exactas = () => {
  
   </div>
 </div></div>
-  <div className="col"><div className="card ca" style={{ width: '18rem' }}>
+<div className="col  "><div className="card ca" style={{ width: '18rem' }}>
   <img src={apuntes} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Apuntes personalizados</h5>
@@ -127,12 +132,13 @@ export const Exactas = () => {
   </div>
 </div>
 </div>
-</div> 
+   
+ 
 
 
 {/*linea 3*/}
-<div className="row">
-  <div className="col"><div className="card cb"style={{ width: '18rem' }}>
+ 
+  <div className="col "><div className="card cb"style={{ width: '18rem' }}>
   <img src={grafica} className="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">Graficadora</h5>
@@ -157,6 +163,8 @@ export const Exactas = () => {
   </div>
 </div>
 </div>
+
+ 
 </div> 
 
 
@@ -170,15 +178,16 @@ export const Exactas = () => {
 
 
     <div className ="container text-center">
-  <div className="row">
+  <div className="row row-reloj">
     <div className="col-12 col-md-6">
-    <img src={reloj} alt="" className='reloj' />
+    
     </div>
-    <div className="col-12 col-md-6 contp-met">
-      <p>Se establece un cronograma de contenido acorde a tu necesidades. La tarifa no es por hora, sino que es por clase. Si bien la clase se estima para que tenga una duración de una hora, si nos exedemos  no hay cobro extra, ya que lo importante es cumplir con los contenidos previstos para esa clase. </p>
-    </div>
+    
      
   </div>
+  <div className="  contp-met">
+      <p className="p-reloj">Se establece un cronograma de contenido acorde a tus necesidades. La tarifa no es por hora, sino que es por clase. Si bien la clase se estima para que tenga una duración de una hora, si nos exedemos  no hay cobro extra, ya que lo importante es cumplir con los contenidos previstos para esa clase. </p>
+    </div>
 </div>
 
 </div>
