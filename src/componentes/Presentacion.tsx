@@ -6,6 +6,7 @@ import infoespañol from "../imagenes/info-español.jfif"
 import infoextactas from "../imagenes/info-exactas.jfif"
 import infosociales from "../imagenes/info-sociales.jfif"
 import agenda from "../imagenes/agenda.png"
+import { Link } from 'react-router-dom';
 
 export const Presentacion = () => {
   
@@ -58,20 +59,21 @@ export const Presentacion = () => {
         <div className="jumbo------">
             <h1 className="title mb-3">Clases personalizadas</h1>
             <h2 className="subtitle mb-3">Óptimos resultados</h2>
-            <button type="button" className="btn btn-success">Reserva</button>
+            <button type="button" className="btn   buton"><Link to="/contacto" className="nav-link  active "  >Reserva</Link></button>
         </div>
         <div className="frase m-5 bt-5">
             <blockquote>
-    <p className='p-frase'>“ 𝑆𝑖 𝑞𝑢𝑖𝑒𝑟𝑒𝑠 𝑑𝑜𝑚𝑖𝑛𝑎𝑟 𝑎𝑙𝑔𝑜, 𝑒𝑛𝑠𝑒𝑛̃𝑎𝑙𝑜. 𝐶𝑢𝑎𝑛𝑡𝑜 𝑚𝑎́𝑠 𝑒𝑛𝑠𝑒𝑛̃𝑎𝑠, 𝑚𝑒𝑗𝑜𝑟 𝑎𝑝𝑟𝑒𝑛𝑑𝑒𝑠. 𝐿𝑎 𝑒𝑛𝑠𝑒𝑛̃𝑎𝑛𝑧𝑎 𝑒𝑠 𝑢𝑛𝑎 ℎ𝑒𝑟𝑟𝑎𝑚𝑖𝑒𝑛𝑡𝑎 𝑝𝑜𝑑𝑒𝑟𝑜𝑠𝑎 𝑝𝑎𝑟𝑎 𝑒𝑙 𝑎𝑝𝑟𝑒𝑛𝑑𝑖𝑧𝑎𝑗𝑒” </p>
-    <cite>— 𝑹𝒊𝒄𝒉𝒂𝒓𝒅 𝑭𝒆𝒚𝒏𝒎𝒂𝒏</cite>
+    <p className='p-frase mb-5'> 
+      " Si quieres dominar algo, enseñalo. Cuanto más lo enseñas, mejor aprendes. La enseñanza es una herramienta poderosa para el aprendizaje" </p>
+    <cite >— 𝑹𝒊𝒄𝒉𝒂𝒓𝒅 𝑭𝒆𝒚𝒏𝒎𝒂𝒏</cite>
 </blockquote>
 </div>
 
 
 
 
-<div className="container servicios-cont mb-4">
-    <h3 className='h3-serv--  '>Servicios</h3>
+<div className="container servicios-cont mb-4 mt-5">
+    <h3 className='h3-serv-- mt-5 '>Servicios</h3>
 
     <div  className="container text-center cols">
   <div className="row-cards-alfa  ">
@@ -82,7 +84,7 @@ export const Presentacion = () => {
   <div className="card-body">
     <h5 className="card-title">Español</h5>
     <p className="card-text-i">Clases y conversación. Énfasis en la práctica.</p>
-    <a href="#" className="btn btn-primary">+ Información</a>
+    <Link  to="/español" className="btn btn-primary"  >+ Información</Link>
   </div>
 </div>
     </div>
@@ -94,7 +96,7 @@ export const Presentacion = () => {
   <div className="card-body">
     <h5 className="card-title">Cs. Exactas</h5>
     <p className="card-text-i">Preparación teórica y práctica para tus exámenes.</p>
-    <a href="#" className="btn btn-primary">+ Información</a>
+    <Link  to="/exactas" className="btn btn-primary"  >+ Información</Link>
   </div>
 </div>
     </div>
@@ -104,7 +106,7 @@ export const Presentacion = () => {
   <div className="card-body">
     <h5 className="card-title">Cs. Sociales</h5>
     <p className="card-text-i">Comprensión y análisis de textos. Técnicas de estudio.</p>
-    <a href="#" className="btn btn-primary">+ Información</a>
+    <Link  to="/sociales" className="btn btn-primary"  >+ Información</Link>
   </div>
 </div>
     </div>
@@ -133,7 +135,7 @@ export const Presentacion = () => {
     <div className="col "><h2 className='p-reserva'>Reservá tu clase ahora!</h2></div>
    
   </div>
-  <button type="button" className="btn btn-success btn-reserva">Reserva</button>
+  <button type="button" className="btn   buton"><Link to="/contacto" className="nav-link  active "  >Reserva</Link></button>
 </div>
 
 

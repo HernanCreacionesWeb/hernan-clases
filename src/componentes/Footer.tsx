@@ -16,7 +16,8 @@ export const Footer = () => {
       <li className="nav-item"><Link to="/sociales" className="nav-link px-2 text-body-secondary">Cs. Sociales</Link></li>
  
     </ul>
-    <a href=""  ><p className="text-center text-body-secondary chivo">&copy; Desarrollado por HC Creaciones Web</p></a>
+    <a href="https://hernancreacionesweb.github.io/hc-portfolio-web/"  ><p className="text-center text-body-secondary chivo">&copy; Desarrollado por HC Creaciones Web</p></a>
+    
   </footer>
 </div>
         
